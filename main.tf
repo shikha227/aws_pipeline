@@ -19,7 +19,7 @@ data "aws_ami" "ubuntu" {
 }
 
 /*
-// Use Security Group module to create security group
+// Use Secuity Group module to create security group
 module "security_group" {
   source = "git::https://github.com/Patelvijaykumar/terraform-aws-security-group"
   vpc_id = "${var.vpc_id}"
